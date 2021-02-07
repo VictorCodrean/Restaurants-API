@@ -1,0 +1,64 @@
+
+/* Develop-Victor */
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* .control input  {
+    
+    max-width: 75%;
+}
+
+select, option {
+    width: 200% !important;
+    max-width: 200% !important;
+} */
+body {
+  background-color: aquamarine;
+}
+
+.restaurant-field {
+margin-bottom: 20px;
+
+} 
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+
+    .columns.is-mobile {
+    display: block !important;
+}
+
+    .mobile-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+
+    .mobile-center-text {
+        text-align: center;
+    }
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||| */
